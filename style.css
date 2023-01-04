@@ -1,0 +1,33 @@
+
+p:hover{
+    font-size: 20px;
+    background-color: blueviolet;
+}
+button:hover{
+    background-color: aqua;
+    /* color: #fff; */
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+input:focus{
+    /* background-color: aqua; */
+    border: 3px solid greenyellow;
+}
+input:hover{
+    border: 3px solid rgb(217, 0, 255);
+    border-radius: 5px;
+}
+/* li:last-child{
+    background-color: chocolate;
+} */
+li:nth-child(2n){
+    background-color: darkslateblue;
+}
+
+a:visited{
+    color: aqua;
+}
